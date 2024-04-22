@@ -1,0 +1,21 @@
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%; 
+    box-shadow: 0 0 5px white; 
+    animation: twinkle 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes twinkle {
+    0%, 100% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  }
+  
