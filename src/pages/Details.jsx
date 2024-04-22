@@ -112,13 +112,16 @@ export default function Details() {
   const getFacts = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/get-facts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ name: planet.name }),
-      });
+      const response = await fetch(
+        "http://jayna-solar-system.vercel.app/get-facts",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: planet.name }),
+        }
+      );
       const data = await response.json();
       setFactsAboutMars(data?.message?.content);
       setLoading(false);

@@ -26,7 +26,7 @@ function Login() {
     setLoading(true);
 
     // call the api
-    fetch("http://localhost:5000/user/login", {
+    fetch("http://jayna-solar-system.vercel.app/user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
