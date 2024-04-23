@@ -44,7 +44,7 @@ const SignUp = () => {
       setLoading(true);
 
       // call the api
-      fetch("http://jayna-solar-system.vercel.app/user/signup", {
+      fetch("https://jayna-solar-system.vercel.app/user/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

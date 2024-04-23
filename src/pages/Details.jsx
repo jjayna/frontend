@@ -113,7 +113,7 @@ export default function Details() {
     setLoading(true);
     try {
       const response = await fetch(
-        "http://jayna-solar-system.vercel.app/get-facts",
+        "https://jayna-solar-system.vercel.app/get-facts",
         {
           method: "POST",
           headers: {
