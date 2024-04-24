@@ -143,7 +143,7 @@ export default function Details() {
       {u?.email ? (
         <div className="absolute top-0 right-0 m-6 flex gap-4 ">
           <img
-            src="https://github.com/shadcn.png"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFVZVkbUhiHa5OPiG7RxDJtdL2h4R8ATY4Bo4gXyqWqA&s"
             className="w-10 h-10 rounded-full"
             alt=""
           />
